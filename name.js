@@ -1,5 +1,6 @@
 fetchUsers = () => {
     try {
+        
         let select=document.getElementById("Name");
         fetch(`https://jsonplaceholder.typicode.com/users`)
         .then((res) => res.json())
